@@ -15,7 +15,8 @@ const CONFIG = {
     { src: "assets/fotos/01.jpeg", caption: "Gracias por regalarme 5 minutitos 💖" },
     { src: "assets/fotos/02.jpeg", caption: "Mi lugar favorito: contigo." },
     { src: "assets/fotos/03.jpeg", caption: "Tus ojos + mi calma = perfecto." },
-    { src: "assets/fotos/04.jpeg", caption: "Gracias por existir en mi vida ✨" }
+    { src: "assets/fotos/04.jpeg", caption: "Gracias por existir en mi vida ✨" },
+    { src: "assets/fotos/05.jpeg", caption: "Cada día a tu lado es un regalo.💖" },
   ],
 
   memories: [
@@ -101,7 +102,7 @@ function applyConfig(){
   valDay.textContent = CONFIG.valentineDateLabel;
 
   // hero photo
-  heroPhoto.src = CONFIG.photos[0]?.src || "";
+  heroPhoto.src = CONFIG.photos[4]?.src || "";
   heroPhoto.alt = "Foto de " + CONFIG.yourName + " y " + CONFIG.herName;
 
   // Since date label
