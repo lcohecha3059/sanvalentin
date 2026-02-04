@@ -2,7 +2,7 @@
 const CONFIG = {
   herName: "Sahmara",               // <-- cámbialo
   yourName: "Pocho",             // <-- cámbialo
-  sinceDate: "2025-08-22",        // <-- fecha desde la que cuentan (YYYY-MM-DD)
+  sinceDate: "2025-08-17",        // <-- fecha desde la que cuentan (YYYY-MM-DD)
   valentineDateLabel: "14 de febrero",
 
   heroTypewriterLines: [
@@ -34,7 +34,7 @@ const CONFIG = {
   modal: {
     yesTitle: "¡Siiiii! 💖",
     yesText: "¡Me acabas de hacer la persona más feliz del mundo! Prometo que cada día a mi lado se sienta como un regalo. ✨",
-    maybeTitle: "Te amo✨",
+    maybeTitle: "Te amo infinito cómo Buzzlightyear✨",
     maybeText: "No hay nadie más con quien quisiera pasar este día (y todos los demás). Eres mi lugar favorito. 💘",
   }
 };
